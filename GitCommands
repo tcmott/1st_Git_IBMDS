@@ -1,0 +1,19 @@
+#common git commands from Project 1
+#To initiliaze WD use git init
+# Create new file use touch newfilename
+# To add file to Repository git add newfilename
+# Need Git to know who I am do the following commands
+  Git config --global user.email "me@example.com"
+  Git config --global user.name "My Name"
+#To commit with message use git commit -m "type message" 
+#To create a brach git branch branchname
+#To list branches use git branch
+ Note * denotes active branch
+#To work in different branch git checkout -b nameofbranchwanttoworkin
+#TO add text to files use echo 'type out text' >> filename
+#To check status use git status
+#To check history use git log
+#To revert changes use git revert HEAD --no-edit
+#To merge git merge branchname, verify with git log, then delete git branch -d branchname
+
+
